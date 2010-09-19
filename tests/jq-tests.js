@@ -6,6 +6,7 @@ window.tests = {
 				.attr("id", "setid" + i)
 				.appendTo("body");
 		}
+
 		return $("ul.fromcode").length;
 	},
 	
